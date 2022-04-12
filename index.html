@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation component</title>
+    
+    <!-- css connection -->
+    <link rel="stylesheet" href="./style.css">
+    <!--  Font Awesome connection -->
+    <script src="https://kit.fontawesome.com/7526d7a6e6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Navbar start -->
+    <nav class="navbar">
+        <div class="container flex-between">
+            <a href="#" class="navbar__logo">LOGO</a>
+            <i class="fa-solid fa-bars" id="menu-btn"></i>
+            <ul class="nav">
+                <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+                <li class="nav__item dropdown">
+                    <button class="nav__link dropdown-btn">Shop <i class="fa-solid fa-chevron-down"></i></button>
+                    <div class="dropdown-menu">
+                        <a href="#" class="nav__link">Link 1</a>
+                        <a href="#" class="nav__link">Link 2</a>
+                        <a href="#" class="nav__link">Link 3</a>
+                    </div>
+                </li>
+                <li class="nav__item"><a href="#" class="nav__link">About</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
+                <li class="sign-in"><a href="#" class="sign-in__link">Sign In</a></li>
+                <li class="sign-up"><a href="#" class="sign-up__link">Sign Up</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Navbar end -->
+    
+    <!-- javascript connection -->
+    <script src="./app.js"></script>
+</body>
+</html>
